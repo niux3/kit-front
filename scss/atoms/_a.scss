@@ -1,0 +1,19 @@
+a {
+    color: #{map-get($color-primary, default)};
+    text-decoration: underline;
+    transition: color $speed;
+    @include breakpoints(medium-screen, min){
+        &:hover {
+            color: #{map-get($color-primary, hover)};
+            text-decoration: none;
+        }
+    }
+
+    img{
+        border: none;
+    }
+
+    &.btn, &.button{
+        text-decoration: none;
+    }
+}

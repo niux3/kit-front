@@ -1,0 +1,25 @@
+{
+  "name": "kit-front",
+  "version": "0.0.1",
+  "description": "base dev front basique",
+  "main": "index.js",
+  "scripts": {
+    "start": "grunt watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "renaudbourdeau@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^6.1.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^3.8.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-image": "^3.0.0",
+    "load-grunt-tasks": "^3.4.0"
+  },
+  "dependencies": {}
+}
