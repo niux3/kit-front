@@ -21,10 +21,11 @@ textarea{
         cursor:text;
         scrollbar-color: $color-ghost $color-base;
     }
-     &:hover{
+
+    &:hover{
         scrollbar-color: $color-ghost $color-base;
         border-color: map-get($color-primary, default) !important;
-     }
+    }
 
     &:disabled{
         cursor: not-allowed;

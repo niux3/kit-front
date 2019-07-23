@@ -171,6 +171,48 @@
             </div>
             <?php endforeach;?>
             <hr>
+            <h2>formulaire</h2>
+            <form action="">
+                <fieldset>
+                    <legend>une liste de champs</legend>
+                    <div class="grid-2 has-gutter">
+                        <div class="input text">
+                            <label for="firstname">prénom</label>
+                            <input type="text" name="firstname" id="firstname">
+                        </div>
+                        <div class="input text">
+                            <label for="lastname">nom</label>
+                            <input type="text" name="lastname" id="lastname">
+                        </div>
+                    </div>
+                    <div class="grid has-gutter">
+                        <div class="input text col-3">
+                            <label for="zipcode">code postal</label>
+                            <input type="text" name="zipcode" id="zipcode">
+                        </div>
+                        <div class="input text col-9">
+                            <label for="city">ville</label>
+                            <input type="text" name="city" id="city">
+                        </div>
+                    </div>
+                    <div class="input select">
+                        <label for="subject">sujet</label>
+                        <select name="subject" id="subject" disabled>
+                            <option value="">choisir un sujet</option>
+                            <option value="">quelque chose</option>
+                            <option value="">une chose</option>
+                            <option value="">quelque chose autre</option>
+                        </select>
+                    </div>
+                    <div class="input textarea">
+                        <label for="message">message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                </fieldset>
+                <div class="input submit">
+                    <button type="submit" class="primary">envoyer</button>
+                </div>
+            </form>
         </div>
         <script src="js/min.js"></script>
         <script>

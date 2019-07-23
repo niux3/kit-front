@@ -34,6 +34,7 @@
 @import "atoms/code";
 @import "atoms/colors";
 @import "atoms/dl";
+@import "atoms/fieldset";
 @import "atoms/form";
 @import "atoms/grid";
 @import "atoms/hr";
@@ -41,10 +42,12 @@
 @import "atoms/input";
 @import "atoms/italic";
 @import "atoms/label";
+@import "atoms/legend";
 @import "atoms/list";
 @import "atoms/mark";
 @import "atoms/main";
 @import "atoms/p";
+@import "atoms/select";
 @import "atoms/strike";
 @import "atoms/table";
 @import "atoms/textarea";
@@ -54,5 +57,6 @@
 //moelcules
 @import "molecules/block-code";
 @import "molecules/buttons";
+@import "molecules/inputs";
 //organismes
 //templates
