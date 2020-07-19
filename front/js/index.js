@@ -1,5 +1,6 @@
 import name_config from './libs/config';
 import Element from './libs/elements/element';
+import '../scss/index.scss';
 
 let hello = name =>{
     console.log(`Salut ${name}`);
