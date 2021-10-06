@@ -4,7 +4,7 @@ export default class Styles{
         let tpl = `
             <style>
                 p{
-                    color:red;
+                    color: #212529;
                 }
             </style>
         `;
