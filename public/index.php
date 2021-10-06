@@ -147,7 +147,13 @@
         <hr>
         <h2>input</h2>
         <div>
-            <textarea placeholder="placeholder text"></textarea>
+            <textarea placeholder="placeholder text">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sint repudiandae, libero voluptates aliquam laborum, omnis voluptatem cum ab minus, praesentium corporis rem quos natus eveniet? Odio sapiente quam excepturi.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sint repudiandae, libero voluptates aliquam laborum, omnis voluptatem cum ab minus, praesentium corporis rem quos natus eveniet? Odio sapiente quam excepturi.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sint repudiandae, libero voluptates aliquam laborum, omnis voluptatem cum ab minus, praesentium corporis rem quos natus eveniet? Odio sapiente quam excepturi.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sint repudiandae, libero voluptates aliquam laborum, omnis voluptatem cum ab minus, praesentium corporis rem quos natus eveniet? Odio sapiente quam excepturi.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sint repudiandae, libero voluptates aliquam laborum, omnis voluptatem cum ab minus, praesentium corporis rem quos natus eveniet? Odio sapiente quam excepturi.
+            </textarea>
             <textarea placeholder="placeholder text" disabled>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sint repudiandae, libero voluptates aliquam laborum, omnis voluptatem cum ab minus, praesentium corporis rem quos natus eveniet? Odio sapiente quam excepturi.</textarea>
             <input type="text" disabled value="une valeur">
             <input type="text" placeholder="placeholder text">
