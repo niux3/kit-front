@@ -22,14 +22,15 @@ let plugins = [
         outputStyle: "compressed",
     })
 ];
-if(process.argv.includes('dev')){
-    plugins.splice(0, 0, livereload({
+if(process.argv.includes('--dev')){
+    plugins = [...plugins, livereload({
+        watch: 'public',
         verbose: true,
         port: 9000,
         delay: 500,
-    }));
+    })]
 }
-
+console.log(plugins)
 export default {
     input: 'front/js/index.js',
     output: {

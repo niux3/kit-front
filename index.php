@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./public/css/style.css">
 </head>
 <body>
+
     <div class="container">
         <h1>Kit front</h1>
         <?php for($i = 1; $i <= 6; $i++): ?>
@@ -221,6 +222,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit sint repudian
         </form>
     </div>
     <script async defer src="./public/js/app.js"></script>
+    <script src="http://localhost:9000/livereload.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
